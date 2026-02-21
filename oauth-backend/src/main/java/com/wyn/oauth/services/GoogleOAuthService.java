@@ -5,6 +5,5 @@ import com.wyn.oauth.dto.LoginRequest;
 
 public interface GoogleOAuthService {
 
-	GoogleTokenResponse exchangeCode(LoginRequest loginRequest);
-
+  GoogleTokenResponse exchangeCode(LoginRequest loginRequest);
 }

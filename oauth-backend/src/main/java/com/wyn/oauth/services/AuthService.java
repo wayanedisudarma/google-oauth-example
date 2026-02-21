@@ -7,8 +7,7 @@ import com.wyn.oauth.dto.RefreshTokenResponse;
 
 public interface AuthService {
 
-	LoginResponse login(LoginRequest loginRequest);
+  LoginResponse login(LoginRequest loginRequest);
 
-	RefreshTokenResponse refreshToken(RefreshTokenRequest refreshTokenRequest);
-
+  RefreshTokenResponse refreshToken(RefreshTokenRequest refreshTokenRequest);
 }
